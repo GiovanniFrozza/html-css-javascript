@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+    background-color: rgb(176 176 87 / 73%)
+}
+
+p {
+    font-size: 12;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 1.5em;
+    padding: 10px;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-image: linear-gradient(to top, #096125, #10AD42);
+    /* margin: -20px; */
+    box-shadow: 2px 3px 8px black;
+    border-radius: 20px;
+}
+
+header > h1 {
+    padding: 30px;
+    text-align: center;
+}
+
+header > p {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+nav > a{
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+
+}
+
+nav > a:hover {
+    color: rgb(219, 120, 120);
+    background-color: rgba(207, 207, 207, 0.815);
+    border-radius: 20px;
+}
+
+
+article {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 10px;
+    margin: 20px 60px;
+}
+
+aside > h1{
+    font-family:'Indie Flower', sans-serif;
+}
+
+aside > h2 {
+    background-image: linear-gradient(to right, #10AD42, white);
+    font-family:'Indie Flower', sans-serif;
+}
+
+.destaque {
+    color: #10AD42;
+}
+
+nav > h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+    background-color: green;
+}
+
+aside nav p {
+    background-color: black;
+}
+
+.diferente {
+    background-color: rgb(109, 228, 109);
+    margin-top: -20px;
+    border: black;
+    border-radius: 2px;
+}
