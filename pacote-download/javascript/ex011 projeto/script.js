@@ -34,7 +34,7 @@ function verificar() {
                 img.setAttribute('src', 'imagem/idoso.png')
             }
         }
-        res.innerHTML = `${idade} ${genero}`
+        res.innerHTML = `${idade} anos, ${genero}`
         res.appendChild(img)
     }
 }
